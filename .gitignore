@@ -1,0 +1,43 @@
+# IDEA
+.idea/workspace.xml
+.idea/tasks.xml
+*.iws
+*.iml
+*.ipr
+target
+
+# backups
+*~
+
+# output
+*.class
+
+# Gradle #
+##########
+.gradle
+
+# Backups #
+###########
+*~
+
+# Build output #
+################
+build
+test-reports
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+

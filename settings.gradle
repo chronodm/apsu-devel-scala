@@ -1,0 +1,13 @@
+// $Rev: 235694 $ $Date: 2014-05-20 15:59:08 -0700 (Tue, 20 May 2014) $
+
+// TODO __DMOLES__ something more efficient for deep directory trees
+rootDir.eachFileRecurse { 
+  if (it.name == "build.gradle") { 
+    def projDir = it.parentFile
+    if (projDir != rootDir) { 
+      include projDir.name
+      project(":${projDir.name}").projectDir = projDir
+    }
+  }
+}
+

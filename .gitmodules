@@ -1,0 +1,12 @@
+[submodule "apsu-core-scala"]
+	path = apsu-core-scala
+	url = git@github.com:chronodm/apsu-core-scala.git
+[submodule "apsu-demo-scala"]
+	path = apsu-demo-scala
+	url = git@github.com:chronodm/apsu-demo-scala.git
+[submodule "apsu-rpg-scala"]
+	path = apsu-rpg-scala
+	url = git@github.com:chronodm/apsu-rpg-scala.git
+[submodule "apsu-util-scala"]
+	path = apsu-util-scala
+	url = git@github.com:chronodm/apsu-util-scala.git
