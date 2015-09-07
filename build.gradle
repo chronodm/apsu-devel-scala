@@ -1,4 +1,8 @@
-// $Rev: 235694 $ $Date: 2014-05-20 15:59:08 -0700 (Tue, 20 May 2014) $
+plugins {
+  // we don't really need this but it stops IDEA getting
+  // confused about output paths
+  id "java"
+}
 
 // ------------------------------------------------------------
 // Tasks
