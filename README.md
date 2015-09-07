@@ -5,4 +5,6 @@ Cloning:
     $ git submodule init
     $ git submodule update
     
-    
+## TO DO:
+
+- Add Gradle tasks for submodule-recursive add/commit/push
