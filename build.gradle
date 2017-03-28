@@ -8,7 +8,7 @@ plugins {
 // Tasks
 
 task wrapper(type: Wrapper) {
-  gradleVersion = '2.3'
+  gradleVersion = '3.3'
 }
 
 // ------------------------------------------------------------
@@ -47,7 +47,7 @@ subprojects.each { p ->
  * Reads a Project or Dependency and creates a map containing
  * its group and name, which can be used as a lookup key
  */
-def toDeclaration(p) { 
-  [ group:p.group, name:p.name ] 
+def toDeclaration(p) {
+  [ group:p.group, name:p.name ]
 }
 
